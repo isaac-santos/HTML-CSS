@@ -1,0 +1,1 @@
+usamos o "text-indent" para separar o inicio do parágrafo da margem.

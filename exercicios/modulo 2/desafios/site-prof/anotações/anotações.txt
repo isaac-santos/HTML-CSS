@@ -1,0 +1,3 @@
+o tamanho maximo do texto deve está em 1200 pixel de largura
+
+text-trasition: 1s;

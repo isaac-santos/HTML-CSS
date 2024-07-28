@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'IDroid';
+    src: url('Fonts/IDroid.otf') format('Opentype');
+}
+
+/* configuração geral do link*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* cabeçalho */
+header {
+    background: rgb(28,88,54);
+    background: linear-gradient(1deg, rgba(28,88,54,1) 9%, rgba(53,189,113,1) 100%);
+    padding-top: 1px;
+    
+}
+
+header > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    font-family: 'magneta';
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+/* cabeçalho - MENU */
+ul {
+    font-family: 'magneta';
+    list-style: none;
+    display: inline-flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav > ul > li > a:hover {
+    background-color:  rgba(53,189,113,1);
+    color: rgb(28,88,54);
+    border-radius: 5px;
+}
+
+/* Conteúdo */
+
+main {
+    background-color: white;
+    margin: 0px 210px;
+    padding: 1px;
+}
+
+h1, h2 {
+    font-family: 'IDroid';
+    color: rgb(28,88,54);
+}
+
+h1 {
+    margin: 18px;
+}
+
+h2 {
+    background-color: rgba(53, 189, 112, 0.363);
+    margin: 20px;
+    padding: 0px 10px;
+}
+
+p {
+    margin: 18px;
+    text-indent: 39px;
+}
+
+main > p {
+    font-weight: bold;
+}
+
+span {
+    color: rgb(28,88,54);
+    font-weight: bold;
+}
+
+/*  */
+
+
+/* video */
+
+.imgform {
+    text-align: center;
+}
+
+div#vid {
+    text-align: center;
+    background-color: rgb(28,88,54);
+}
+
+iframe {
+    padding: 40px;
+}
+
+main > section > img {
+    text-align: center;
+}
+
+article {
+    margin: 0px 20px;
+}
+
+article > div > h4 {
+    background-color: rgb(44, 141, 86);
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+}
+
+article > div {
+    background-color: rgba(53, 189, 112, 0.404);
+    border-radius: 8px;
+    padding: 0px 0px 2px 0px;
+}
+
+/**/
+footer {
+    background-color: rgb(28,88,54);
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+ol {
+    list-style: none;
+}
+
+.nalinha {
+    display: inline-flex;
+    margin: 0px 80px;
+}
+
+ol ::before {
+    content: '\002714';
+}
+
+li ::before {
+    content: '';
+}
+
+li > span {
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
+}
+
+footer > span {
+    font-weight: 900;
+    color: white;
+}

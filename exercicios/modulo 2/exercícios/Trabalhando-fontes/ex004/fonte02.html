@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Angel';
+            src:url('fonts/Angel wish.ttf') format('truetype'),
+                url('fonts/Angel wish.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        
+            /* 
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Advanced Typography)
+                - svg
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Angel';
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur doloremque voluptate ab dolore facere maxime unde? Ut tenetur in, ex adipisci velit beatae sequi aut pariatur at reiciendis cum voluptate!</p>
+</body>
+</html>

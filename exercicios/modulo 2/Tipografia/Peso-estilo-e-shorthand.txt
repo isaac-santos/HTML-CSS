@@ -1,0 +1,35 @@
+peso da fonte é:
+
+font-weight
+
+
+não confunda as palavras:
+
+weight = peso
+width = largura 
+height = altura
+
+valores dos pesos:
+
+lighter (magro), normal, bold(negrito), bolder(extranegrito)
+
+temos também variação númerica, começa em 100 e termina em 900.
+
+estilo das fontes:
+
+font-style
+
+italic, normal e etc
+
+para sublinhar:
+
+text-decoration:underline;
+
+shorthand:
+
+condesar as tags:
+font: family, weight, size e style.
+
+shorthand font (tem que ser posto na ordem certa)
+
+-font-style, weight, size, family

@@ -1,0 +1,26 @@
+Medidas Absolutas:
+cm, mm, in (polegada), px, pt, pc
+
+Medidas Relativas:
+em: Relativo ao m maiúsculo de uma letra (fonte) 
+
+ex: relativo a altura x
+
+rem: relativo ao rute (fonte configurada no body)
+
+vw: largura da view porte (tamanho da tela que o usuários está), trabalha com porcentagem
+
+vh: altura da view porte
+
+%
+
+
+falando sobre os padrões:
+
+16px é o padrão para o tamanho das fontes
+
+16px é = a 1em
+
+use px ou em
+
+a tag para usar o tamanho da fonte é font-size
