@@ -1,0 +1,4 @@
+cor - imagem - posição - repetir - tamanho - travamento(attachment)
+
+
+tamanho ainda não funciona para os sites, só separado
