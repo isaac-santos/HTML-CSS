@@ -1,0 +1,3 @@
+para centralização horizontal usa-se o margin="auto";
+
+mas isso não funciona se a intenção é centralizar de forma vertical também, para fazer isso é necessário adicionar uma posição relativa no container (não é necessáriamente precisor por relative, pois isso já é definido automaticamente) e no conteúdo o posicionamento deve ser absoluto, assim será possivel utilizar as propriedades left, right, top e bottom.  
