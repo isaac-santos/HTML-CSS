@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método GET/POST</title>
+</head>
+<body>
+    <h1>Primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="iname">Nome:</label> 
+            <input type="text" name="name" id="iname">
+        </p>
+
+        <p><label for="isurname">Sobrenome:</label> 
+            <input type="text" name="surname" id="isurname">
+        </p>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
+<!-- Para enviar os dados (não sensiveis), podemos usar o method get ou post -->
+<!-- Importante, com o get só podemos enviar até 3 mil bits, além disso não poderemos enviar com o get -->

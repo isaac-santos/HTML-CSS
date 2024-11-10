@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Label</title>
+</head>
+<body>
+    <h1>Primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="iname">Nome:</label><!-- label usa id no for --> 
+            <input type="text" name="name" id="iname">
+        </p>
+
+        <p><label for="isurname">Sobrenome:</label> 
+            <input type="text" name="surname" id="isurname">
+        </p>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
+<!-- Nesta aula foi mostrado como desligar o preenchimento automâtico usando o "autocomplete", para onde enviar o dados preenchidos com o "action" e o uso do "label" para que o navegador entenda que o input está ligado a uma determinada informação. EX.: Nome: xxxxx . -->
+ <!-- O name é importante para o html e php e o id para javascript e label. -->
